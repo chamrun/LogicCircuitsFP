@@ -22,17 +22,17 @@
 
 module FullAdder(s, co, x, y, ci);
 	 
-	 output s, co;
-	 input x, y, ci;
-	 
-	 xor #(10) xor0(s, x, y, ci);  
-	 
-	 wire a, b, c;
-	 
-	 and #(5) and0(a, x, ci);
-	 and #(5) and1(b, y, ci);
-	 and #(5) and2(c, x, y);
-	 
-	 or #(5) or0(co, a, b, c);
+	output s, co;
+	input x, y, ci;
+	
+	xor(s, x, y, ci);  
+	
+	wire a, b, c;
+	
+	and(a, x, ci);
+	and(b, y, ci);
+	and(c, x, y);
+	
+	or(co, a, b, c);
 	 
 endmodule

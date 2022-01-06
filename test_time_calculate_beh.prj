@@ -1,0 +1,3 @@
+verilog work "module_4/time_calculate.v"
+verilog work "TestBenchs/test_time_calculate.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

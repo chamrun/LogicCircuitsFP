@@ -5,5 +5,35 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="267" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_time_calculate.v" Line 35: Cannot find port <arg fmt="%s" index="1">time_total</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1654" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 34: Instantiating &lt;<arg fmt="%s" index="1">(null)</arg>&gt; from unknown module &lt;<arg fmt="%s" index="2">FullAdder</arg>&gt;
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1654" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 35: Instantiating &lt;<arg fmt="%s" index="1">(null)</arg>&gt; from unknown module &lt;<arg fmt="%s" index="2">FullAdder</arg>&gt;
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1654" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 36: Instantiating &lt;<arg fmt="%s" index="1">(null)</arg>&gt; from unknown module &lt;<arg fmt="%s" index="2">FullAdder</arg>&gt;
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1654" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 37: Instantiating &lt;<arg fmt="%s" index="1">(null)</arg>&gt; from unknown module &lt;<arg fmt="%s" index="2">FullAdder</arg>&gt;
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1654" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 38: Instantiating &lt;<arg fmt="%s" index="1">(null)</arg>&gt; from unknown module &lt;<arg fmt="%s" index="2">FullAdder</arg>&gt;
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1654" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 39: Instantiating &lt;<arg fmt="%s" index="1">(null)</arg>&gt; from unknown module &lt;<arg fmt="%s" index="2">FullAdder</arg>&gt;
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1654" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 40: Instantiating &lt;<arg fmt="%s" index="1">(null)</arg>&gt; from unknown module &lt;<arg fmt="%s" index="2">FullAdder</arg>&gt;
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1654" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 41: Instantiating &lt;<arg fmt="%s" index="1">(null)</arg>&gt; from unknown module &lt;<arg fmt="%s" index="2">FullAdder</arg>&gt;
+</msg>
+
+<msg type="error" file="Simulator" num="778" delta="unknown" >Static elaboration of top level Verilog design unit(s) in library <arg fmt="%s" index="1">work</arg> failed
+</msg>
+
 </messages>
 
