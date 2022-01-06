@@ -27,6 +27,12 @@ input entry;
 input [7:0] parking_capacity;
 output enable;
 
-
+always @(entry) begin
+    if (0 < parking_capacity) begin
+        {enable} = 1
+    end else begin
+        {enable} = 0
+    end
+end
 
 endmodule
