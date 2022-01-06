@@ -29,7 +29,7 @@ input [2:0] token;
 input [2:0] pattern;
 output [2:0] park_number;
 
-output [2:0] temp_park_number;
+wire [2:0] temp_park_number;
 
 xor(temp_park_number[0], token[0], pattern[0]);
 xor(temp_park_number[1], token[1], pattern[1]);

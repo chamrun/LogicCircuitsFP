@@ -29,7 +29,7 @@ output [2:0] park_number;
 
 wire [2:0] free_space;
 
-Encoder_8x3 encoder(parking_capacity[0],
+Encoder8x3 encoder(parking_capacity[0],
                     parking_capacity[1],
                     parking_capacity[2],
                     parking_capacity[3],

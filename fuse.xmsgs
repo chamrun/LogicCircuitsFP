@@ -5,5 +5,14 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_3/exit_park.v" Line 34: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_3/exit_park.v" Line 36: Module instantiation should have an instance name
+</msg>
+
+<msg type="error" file="Simulator" num="793" delta="unknown" >Unable to elaborate instantiated module <arg fmt="%s" index="1">decrypt</arg>
+</msg>
+
 </messages>
 

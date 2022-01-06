@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module Encoder_8x3(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
+module Encoder8x3(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
 
     input d0,d1,d2,d3,d4,d5,d6,d7;
     output a,b,c;

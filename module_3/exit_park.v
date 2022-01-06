@@ -29,6 +29,10 @@ input [2:0] token;
 input [2:0] pattern;
 output [7:0] park_location;
 
+wire[2:0] park_number;
 
+decrypt(exit, token, pattern, park_number);
+
+exit_parking_lot(park_number, park_location);
 
 endmodule

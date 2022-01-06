@@ -1,19 +1,15 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Things/Programming/Verilog/LogicCircuitsFP/test_token_production_isim_beh.exe -prj C:/Things/Programming/Verilog/LogicCircuitsFP/test_token_production_beh.prj work.test_token_production work.glbl 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Things/Programming/Verilog/LogicCircuitsFP/test_exit_park_isim_beh.exe -prj C:/Things/Programming/Verilog/LogicCircuitsFP/test_exit_park_beh.prj work.test_exit_park work.glbl 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/module_2/token_production.v" into library work
-Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_token_production.v" into library work
+Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/module_3/exit_parking_lot.v" into library work
+Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/module_3/decrypt.v" into library work
+Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/module_3/exit_park.v" into library work
+Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_exit_park.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
+WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_3/exit_park.v" Line 34: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_3/exit_park.v" Line 36: Module instantiation should have an instance name
 Completed static elaboration
-Compiling module token_production
-Compiling module test_token_production
-Compiling module glbl
-Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-Compiled 3 Verilog Units
-Built simulation executable C:/Things/Programming/Verilog/LogicCircuitsFP/test_token_production_isim_beh.exe
-Fuse Memory Usage: 27844 KB
-Fuse CPU Usage: 702 ms
+ERROR:Simulator:793 - Unable to elaborate instantiated module decrypt

@@ -19,10 +19,25 @@
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
 module exit_parking_lot(
- park_number,
- park_location);
+    park_number,
+    park_location);
+
+
+
 input [2:0] park_number;
 output [7:0] park_location;
 
- // write your code here, please.
+Decoder(park_number[0],
+        park_number[1],
+        park_number[2],
+        park_location[0],
+        park_location[1],
+        park_location[2],
+        park_location[3],
+        park_location[4],
+        park_location[5],
+        park_location[6],
+        park_location[7]);
+
+
 endmodule
