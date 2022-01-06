@@ -22,6 +22,7 @@ module park_space_number(
  enable,
  parking_capacity,
  park_number);
+ 
 input enable;
 input [7:0] parking_capacity;
 output [2:0] park_number;
