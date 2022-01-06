@@ -19,13 +19,20 @@
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
 module decrypt(
- exit,
- token,
- pattern,
- park_number);
+    exit,
+    token,
+    pattern,
+    park_number);
+
 input exit;
 input [2:0] token;
 input [2:0] pattern;
 output [2:0] park_number;
- // write your code here, please.
+
+
+xor (park_number[0], token[0], pattern[0]);
+xor (park_number[1], token[1], pattern[1]);
+xor (park_number[2], token[2], pattern[2]);
+
+
 endmodule

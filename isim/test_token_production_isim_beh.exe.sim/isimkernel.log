@@ -2,27 +2,9 @@ Command line:
    test_token_production_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  2153
+     -socket  12851
 
-Thu Jan 06 11:50:41 2022
+Thu Jan 06 12:08:22 2022
 
 
- Elaboration Time: 0.0625 sec
-
- Current Memory Usage: 5154.35 Meg
-
- Total Signals          : 17
- Total Nets             : 22
- Total Signal Drivers   : 10
- Total Blocks           : 3
- Total Primitive Blocks : 2
- Total Processes        : 12
- Total Traceable Variables  : 20
- Total Scalar Nets and Variables : 108
-
- Total Simulation Time: 0.0625 sec
-
- Current Memory Usage: 5154.35 Meg
-
-Thu Jan 06 11:50:55 2022
-
+ Elaboration Time: 0.078125 sec
