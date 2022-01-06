@@ -27,7 +27,11 @@ input enable;
 input [7:0] parking_capacity;
 output [2:0] park_number;
 
+wire [2:0] temp_park_number;
+
 wire [2:0] free_space;
+
+wire v;
 
 Encoder8x3 encoder(parking_capacity[0],
                    parking_capacity[1],
@@ -39,11 +43,19 @@ Encoder8x3 encoder(parking_capacity[0],
                    parking_capacity[7],
                    free_space[0],
                    free_space[1],
-                   free_space[2]);
+                   free_space[2],
+                   v);
 
-and(park_number[0], enable, free_space[0]);
-and(park_number[1], enable, free_space[1]);
-and(park_number[2], enable, free_space[2]);
+and(temp_park_number[0], enable, free_space[0]);
+and(temp_park_number[1], enable, free_space[1]);
+and(temp_park_number[2], enable, free_space[2]);
+
+wire vx;
+or (vx, v, 1'bx);
+
+and(park_number[0], temp_park_number[0], vx);
+and(park_number[1], temp_park_number[1], vx);
+and(park_number[2], temp_park_number[2], vx);
 
 
 endmodule

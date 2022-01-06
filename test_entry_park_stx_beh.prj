@@ -1,4 +1,4 @@
-verilog isim_temp "module_1/Encoder_8x3.v"
+verilog isim_temp "module_1/Encoder8x3.v"
 verilog isim_temp "module_1/park_space_number.v"
 verilog isim_temp "module_1/entry_checker.v"
 verilog isim_temp "module_1/entry_park.v"
