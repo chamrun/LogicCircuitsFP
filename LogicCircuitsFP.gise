@@ -25,6 +25,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="calculate_new_capacity_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decrypt_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="entry_park_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_calculate_new_capacity_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_calculate_new_capacity_isim_beh.wdb"/>
@@ -43,7 +44,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1641465010" xil_pn:in_ck="969704387379490674" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1641465010">
+    <transform xil_pn:end_ts="1641465097" xil_pn:in_ck="-1608314072198163919" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1641465097">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="TestBenchs/test_calculate_new_capacity.v"/>
@@ -61,6 +62,7 @@
       <outfile xil_pn:name="module_3/decrypt.v"/>
       <outfile xil_pn:name="module_3/exit_park.v"/>
       <outfile xil_pn:name="module_3/exit_parking_lot.v"/>
+      <outfile xil_pn:name="module_4/FullAdder.v"/>
       <outfile xil_pn:name="module_4/time_calculate.v"/>
       <outfile xil_pn:name="module_5/parking_capacity_counter.v"/>
     </transform>
@@ -76,7 +78,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1641465018" xil_pn:in_ck="969704387379490674" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1641465018">
+    <transform xil_pn:end_ts="1641465097" xil_pn:in_ck="-1608314072198163919" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1641465097">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="TestBenchs/test_calculate_new_capacity.v"/>
@@ -94,10 +96,11 @@
       <outfile xil_pn:name="module_3/decrypt.v"/>
       <outfile xil_pn:name="module_3/exit_park.v"/>
       <outfile xil_pn:name="module_3/exit_parking_lot.v"/>
+      <outfile xil_pn:name="module_4/FullAdder.v"/>
       <outfile xil_pn:name="module_4/time_calculate.v"/>
       <outfile xil_pn:name="module_5/parking_capacity_counter.v"/>
     </transform>
-    <transform xil_pn:end_ts="1641465020" xil_pn:in_ck="969704387379490674" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="9167494178040253603" xil_pn:start_ts="1641465018">
+    <transform xil_pn:end_ts="1641465100" xil_pn:in_ck="-1608314072198163919" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="9167494178040253603" xil_pn:start_ts="1641465097">
       <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>

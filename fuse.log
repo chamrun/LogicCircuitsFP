@@ -1,0 +1,20 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Things/Programming/Verilog/LogicCircuitsFP/test_time_calculate_isim_beh.exe -prj C:/Things/Programming/Verilog/LogicCircuitsFP/test_time_calculate_beh.prj test_time_calculate work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/FullAdder.v" into library work
+Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" into library work
+Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_time_calculate.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 34: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 35: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 36: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 37: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 38: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 39: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 40: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 41: Module instantiation should have an instance name
+Completed static elaboration
+ERROR:Simulator:793 - Unable to elaborate instantiated module FullAdder
