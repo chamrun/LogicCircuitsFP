@@ -1,0 +1,3 @@
+verilog work "module_2/token_production.v"
+verilog work "TestBenchs/test_token_production.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -43,4 +43,7 @@ Encoder_8x3 encoder(parking_capacity[0],
 
 assign park_number = (enable) ? free_space : 0;
 
+
+// ToDo: do thins in always block?
+
 endmodule
