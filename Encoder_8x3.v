@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date:
+// Create Date:    
 // Design Name: 
 // Module Name:    Encoder_8x3 
 // Project Name: 
@@ -18,13 +18,17 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module Encoder_8x3(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
-
-    input d0,d1,d2,d3,d4,d5,d6,d7;
-    output a,b,c;
-
-    or(a,d4,d5,d6,d7);
-    or(b,d2,d3,d6,d7);
-    or(c,d1,d3,d5,d7);
+module Encoder_8x3(q1, q0, d3, d2, d1, d0);
+	input d3, d2, d1, d0;
+	output q1, q0;
+	
+	wire not_d2;
+	not g0(not_d2, d2);
+	
+	wire a;
+	and g1(a, d1, not_d2);
+	or g2(q0, a, d3),
+		g3(q1, d2, d3);
+		
 
 endmodule

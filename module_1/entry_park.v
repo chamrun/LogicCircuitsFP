@@ -19,11 +19,21 @@
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
 module entry_park(
- entry,
- parking_capacity,
- park_number);
+    entry,
+    parking_capacity,
+    park_number);
+
 input entry;
 input [7:0] parking_capacity;
+
 output [2:0] park_number;
- // write your code here, please.
+
+wire enable;
+
+entry_checker checker(entry, parking_capacity, enable);
+
+park_space_number number(enable, parking_capacity, park_number);
+
+$display ("number: %d", park_number);
+
 endmodule

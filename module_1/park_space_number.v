@@ -19,12 +19,19 @@
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
 module park_space_number(
- enable,
- parking_capacity,
- park_number);
+    enable,
+    parking_capacity,
+    park_number);
  
 input enable;
 input [7:0] parking_capacity;
 output [2:0] park_number;
- // write your code here, please.
+
+
+always @(enable) begin
+	if (enable) begin
+		Encoder_8x3 encoder();
+	end
+end
+
 endmodule
