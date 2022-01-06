@@ -8,10 +8,22 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/module_1/entry_park.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_calculate_new_capacity.v&quot; into library work</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Things/Programming/Verilog/LogicCircuitsFP/module_1/entry_park.v</arg>&quot; Line <arg fmt="%d" index="2">39</arg>. <arg fmt="%s" index="3">Syntax error near &quot;endmodule&quot;.</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_entry_park.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_exit_park.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_parking_capacity_counter.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_time_calculate.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_token_production.v&quot; into library work</arg>
 </msg>
 
 </messages>

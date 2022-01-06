@@ -34,6 +34,4 @@ entry_checker checker(entry, parking_capacity, enable);
 
 park_space_number number(enable, parking_capacity, park_number);
 
-$display ("number: %d", park_number);
-
 endmodule
