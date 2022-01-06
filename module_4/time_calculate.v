@@ -21,9 +21,9 @@
 module time_calculate(
  time_out,
  time_in,
- time);
+ time_x);
 input [7:0] time_out;
 input [7:0] time_in;
-output [7:0] time;
+output [7:0] time_x;
  // write your code here, please.
 endmodule
