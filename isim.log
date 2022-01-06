@@ -1,15 +1,19 @@
 ISim log file
-Running: C:\Things\Programming\Verilog\LogicCircuitsFP\test_calculate_new_capacity_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Things/Programming/Verilog/LogicCircuitsFP/test_calculate_new_capacity_isim_beh.wdb 
+Running: C:\Things\Programming\Verilog\LogicCircuitsFP\test_time_calculate_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Things/Programming/Verilog/LogicCircuitsFP/test_time_calculate_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
+WARNING:  For instance uut/f0/, width 1 of formal port y is not equal to width 32 of actual constant.
+WARNING:  For instance uut/f0/, width 1 of formal port ci is not equal to width 32 of actual constant.
+WARNING:  For instance uut/f1/, width 1 of formal port y is not equal to width 32 of actual constant.
+WARNING:  For instance uut/f2/, width 1 of formal port y is not equal to width 32 of actual constant.
+WARNING:  For instance uut/f3/, width 1 of formal port y is not equal to width 32 of actual constant.
+WARNING:  For instance uut/f4/, width 1 of formal port y is not equal to width 32 of actual constant.
+WARNING:  For instance uut/f5/, width 1 of formal port y is not equal to width 32 of actual constant.
+WARNING:  For instance uut/f6/, width 1 of formal port y is not equal to width 32 of actual constant.
+WARNING:  For instance uut/f7/, width 1 of formal port y is not equal to width 32 of actual constant.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-ISim P.20131013 (signature 0x7708f090)
-This is a Full version of ISim.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
