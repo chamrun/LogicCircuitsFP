@@ -15,17 +15,20 @@
 --*/
 
 /*-----------------------------------------------------------
----  Module Name: exti_park 
+---  Module Name: exit_park 
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
-module exti_park(
- exit,
- token,
- pattern,
- park_location);
+module exit_park(
+    exit,
+    token,
+    pattern,
+    park_location);
+
 input exit;
 input [2:0] token;
 input [2:0] pattern;
 output [7:0] park_location;
- // write your code here, please.
+
+
+
 endmodule
