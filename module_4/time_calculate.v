@@ -19,11 +19,14 @@
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
 module time_calculate(
- time_out,
- time_in,
- time_x);
+    time_out,
+    time_in,
+    time_x);
+
+
 input [7:0] time_out;
 input [7:0] time_in;
 output [7:0] time_x;
- // write your code here, please.
+
+
 endmodule
