@@ -5,31 +5,28 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 34: Module instantiation should have an instance name
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 35: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">y</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 35: Module instantiation should have an instance name
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 36: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">y</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 36: Module instantiation should have an instance name
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 37: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">y</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 37: Module instantiation should have an instance name
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 38: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">y</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 38: Module instantiation should have an instance name
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 39: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">y</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 39: Module instantiation should have an instance name
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 40: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">y</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 40: Module instantiation should have an instance name
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 41: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">y</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="604" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 41: Module instantiation should have an instance name
-</msg>
-
-<msg type="error" file="Simulator" num="793" delta="unknown" >Unable to elaborate instantiated module <arg fmt="%s" index="1">FullAdder</arg>
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 34: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">y</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
 </messages>

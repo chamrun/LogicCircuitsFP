@@ -8,13 +8,22 @@ Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/t
 Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_time_calculate.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 34: Module instantiation should have an instance name
-WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 35: Module instantiation should have an instance name
-WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 36: Module instantiation should have an instance name
-WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 37: Module instantiation should have an instance name
-WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 38: Module instantiation should have an instance name
-WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 39: Module instantiation should have an instance name
-WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 40: Module instantiation should have an instance name
-WARNING:HDLCompiler:604 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 41: Module instantiation should have an instance name
+WARNING:HDLCompiler:189 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 35: Size mismatch in connection of port <y>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 36: Size mismatch in connection of port <y>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 37: Size mismatch in connection of port <y>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 38: Size mismatch in connection of port <y>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 39: Size mismatch in connection of port <y>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 40: Size mismatch in connection of port <y>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 41: Size mismatch in connection of port <y>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v" Line 34: Size mismatch in connection of port <y>. Formal port size is 1-bit while actual signal size is 32-bit.
 Completed static elaboration
-ERROR:Simulator:793 - Unable to elaborate instantiated module FullAdder
+Compiling module FullAdder
+Compiling module time_calculate
+Compiling module test_time_calculate
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 Verilog Units
+Built simulation executable C:/Things/Programming/Verilog/LogicCircuitsFP/test_time_calculate_isim_beh.exe
+Fuse Memory Usage: 28048 KB
+Fuse CPU Usage: 421 ms
