@@ -29,9 +29,15 @@ input [2:0] token;
 input [2:0] pattern;
 output [2:0] park_number;
 
-xor(park_number[0], token[0], pattern[0]);
-xor(park_number[1], token[1], pattern[1]);
-xor(park_number[2], token[2], pattern[2]);
+output [2:0] temp_park_number;
 
+xor(temp_park_number[0], token[0], pattern[0]);
+xor(temp_park_number[1], token[1], pattern[1]);
+xor(temp_park_number[2], token[2], pattern[2]);
+
+
+and(park_number[0], exit, temp_park_number[0]);
+and(park_number[1], exit, temp_park_number[1]);
+and(park_number[2], exit, temp_park_number[2]);
 
 endmodule
