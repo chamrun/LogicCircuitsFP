@@ -1,0 +1,10 @@
+Command line:
+   test_entry_park_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  12331
+
+Thu Jan 06 11:35:29 2022
+
+
+ Elaboration Time: 0.09375 sec

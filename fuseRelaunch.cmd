@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Things/Programming/Verilog/LogicCircuitsFP/test_entry_park_isim_beh.exe" -prj "C:/Things/Programming/Verilog/LogicCircuitsFP/test_entry_park_beh.prj" "work.test_entry_park" "work.glbl" 

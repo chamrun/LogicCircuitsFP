@@ -27,22 +27,20 @@ input enable;
 input [7:0] parking_capacity;
 output [2:0] park_number;
 
+wire [2:0] free_space;
 
-always @(enable) begin
-	if (enable) begin
-		Encoder_8x3 encoder(parking_capacity[0],
-                            parking_capacity[1],
-                            parking_capacity[2],
-                            parking_capacity[3],
-                            parking_capacity[4],
-                            parking_capacity[5],
-                            parking_capacity[6],
-                            parking_capacity[7],
-                            park_number[0],
-                            park_number[1],
-                            park_number[2],
-        );
-	end
-end
+Encoder_8x3 encoder(parking_capacity[0],
+                    parking_capacity[1],
+                    parking_capacity[2],
+                    parking_capacity[3],
+                    parking_capacity[4],
+                    parking_capacity[5],
+                    parking_capacity[6],
+                    parking_capacity[7],
+                    free_space[0],
+                    free_space[1],
+                    free_space[2]);
+
+assign park_number = (enable) ? free_space : 0;
 
 endmodule
