@@ -5,5 +5,32 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="188" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 37: Actual bit length <arg fmt="%d" index="1">32</arg> differs from formal bit length <arg fmt="%d" index="2">1</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="188" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 42: Actual bit length <arg fmt="%d" index="1">32</arg> differs from formal bit length <arg fmt="%d" index="2">1</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="188" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 47: Actual bit length <arg fmt="%d" index="1">32</arg> differs from formal bit length <arg fmt="%d" index="2">1</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="188" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 53: Actual bit length <arg fmt="%d" index="1">32</arg> differs from formal bit length <arg fmt="%d" index="2">1</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="188" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 59: Actual bit length <arg fmt="%d" index="1">32</arg> differs from formal bit length <arg fmt="%d" index="2">1</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 66: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">y</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 67: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">y</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 68: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">y</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 69: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">y</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
 </messages>
 

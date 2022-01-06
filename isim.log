@@ -1,11 +1,60 @@
 ISim log file
-Running: C:\Things\Programming\Verilog\LogicCircuitsFP\test_calculate_new_capacity_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Things/Programming/Verilog/LogicCircuitsFP/test_calculate_new_capacity_isim_beh.wdb 
-INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+Running: C:\Things\Programming\Verilog\LogicCircuitsFP\test_parking_capacity_counter_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Things/Programming/Verilog/LogicCircuitsFP/test_parking_capacity_counter_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
+WARNING:  For instance uut/fa9/, width 1 of formal port y is not equal to width 32 of actual constant.
+WARNING:  For instance uut/fa10/, width 1 of formal port y is not equal to width 32 of actual constant.
+WARNING:  For instance uut/fa11/, width 1 of formal port y is not equal to width 32 of actual constant.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance uut/fa9/, width 1 of formal port y is not equal to width 32 of actual constant.
+WARNING:  For instance uut/fa10/, width 1 of formal port y is not equal to width 32 of actual constant.
+WARNING:  For instance uut/fa11/, width 1 of formal port y is not equal to width 32 of actual constant.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance uut/fa8/, width 1 of formal port y is not equal to width 32 of actual constant.
+WARNING:  For instance uut/fa9/, width 1 of formal port y is not equal to width 32 of actual constant.
+WARNING:  For instance uut/fa10/, width 1 of formal port y is not equal to width 32 of actual constant.
+WARNING:  For instance uut/fa11/, width 1 of formal port y is not equal to width 32 of actual constant.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.

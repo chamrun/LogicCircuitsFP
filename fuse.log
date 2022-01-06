@@ -1,19 +1,30 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Things/Programming/Verilog/LogicCircuitsFP/test_calculate_new_capacity_isim_beh.exe -prj C:/Things/Programming/Verilog/LogicCircuitsFP/test_calculate_new_capacity_beh.prj test_calculate_new_capacity work.glbl 
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Things/Programming/Verilog/LogicCircuitsFP/test_parking_capacity_counter_isim_beh.exe" -prj "C:/Things/Programming/Verilog/LogicCircuitsFP/test_parking_capacity_counter_beh.prj" "work.test_parking_capacity_counter" "work.glbl" 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/module_3/calculate_new_capacity.v" into library work
-Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_calculate_new_capacity.v" into library work
+Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/FullAdder.v" into library work
+Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" into library work
+Analyzing Verilog file "C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_parking_capacity_counter.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
+WARNING:HDLCompiler:188 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 37: Actual bit length 32 differs from formal bit length 1
+WARNING:HDLCompiler:188 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 42: Actual bit length 32 differs from formal bit length 1
+WARNING:HDLCompiler:188 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 47: Actual bit length 32 differs from formal bit length 1
+WARNING:HDLCompiler:188 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 53: Actual bit length 32 differs from formal bit length 1
+WARNING:HDLCompiler:188 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 59: Actual bit length 32 differs from formal bit length 1
+WARNING:HDLCompiler:189 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 66: Size mismatch in connection of port <y>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 67: Size mismatch in connection of port <y>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 68: Size mismatch in connection of port <y>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v" Line 69: Size mismatch in connection of port <y>. Formal port size is 1-bit while actual signal size is 32-bit.
 Completed static elaboration
-Compiling module calculate_new_capacity
-Compiling module test_calculate_new_capacity
+Compiling module FullAdder
+Compiling module parking_capacity_counter
+Compiling module test_parking_capacity_counter
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 3 Verilog Units
-Built simulation executable C:/Things/Programming/Verilog/LogicCircuitsFP/test_calculate_new_capacity_isim_beh.exe
-Fuse Memory Usage: 27848 KB
-Fuse CPU Usage: 437 ms
+Compiled 4 Verilog Units
+Built simulation executable C:/Things/Programming/Verilog/LogicCircuitsFP/test_parking_capacity_counter_isim_beh.exe
+Fuse Memory Usage: 27516 KB
+Fuse CPU Usage: 390 ms

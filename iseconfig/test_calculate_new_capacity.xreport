@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-01-06T14:02:03</DateModified>
+  <DateModified>2022-01-06T15:39:40</DateModified>
   <ModuleName>test_calculate_new_capacity</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Things/Programming/Verilog/LogicCircuitsFP/iseconfig/test_calculate_new_capacity.xreport</SavedFilePath>

@@ -27,7 +27,7 @@ module exit_parking_lot(
 input [2:0] park_number;
 output [7:0] park_location;
 
-Decoder(park_number[0],
+Decoder3x8 Decoder0(park_number[0],
         park_number[1],
         park_number[2],
         park_location[0],

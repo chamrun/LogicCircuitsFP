@@ -34,5 +34,5 @@ module FullAdder(s, co, x, y, ci);
 	and(c, x, y);
 	
 	or(co, a, b, c);
-	 
+
 endmodule

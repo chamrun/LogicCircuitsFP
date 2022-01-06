@@ -30,20 +30,20 @@ output [2:0] park_number;
 wire [2:0] free_space;
 
 Encoder8x3 encoder(parking_capacity[0],
-                    parking_capacity[1],
-                    parking_capacity[2],
-                    parking_capacity[3],
-                    parking_capacity[4],
-                    parking_capacity[5],
-                    parking_capacity[6],
-                    parking_capacity[7],
-                    free_space[0],
-                    free_space[1],
-                    free_space[2]);
+                   parking_capacity[1],
+                   parking_capacity[2],
+                   parking_capacity[3],
+                   parking_capacity[4],
+                   parking_capacity[5],
+                   parking_capacity[6],
+                   parking_capacity[7],
+                   free_space[0],
+                   free_space[1],
+                   free_space[2]);
 
-assign park_number = (enable) ? free_space : 0;
+and(park_number[0], enable, free_space[0]);
+and(park_number[1], enable, free_space[1]);
+and(park_number[2], enable, free_space[2]);
 
-
-// ToDo: do thins in always block?
 
 endmodule
