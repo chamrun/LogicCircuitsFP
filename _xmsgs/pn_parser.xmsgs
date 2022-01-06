@@ -8,55 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_calculate_new_capacity.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_entry_park.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_exit_park.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_parking_capacity_counter.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_time_calculate.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/TestBenchs/test_token_production.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/module_1/Encoder_8x3.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/module_1/entry_checker.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/module_1/entry_park.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/module_1/park_space_number.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/module_2/token_production.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/module_3/calculate_new_capacity.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/module_3/decrypt.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/module_3/exit_park.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/module_3/exit_parking_lot.v&quot; into library work</arg>
-</msg>
-
 <msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/module_4/time_calculate.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Things/Programming/Verilog/LogicCircuitsFP/module_5/parking_capacity_counter.v&quot; into library work</arg>
 </msg>
 
 </messages>

@@ -29,13 +29,13 @@ module test_time_calculate;
 	reg [7:0] time_in;
 
 	// Outputs
-	wire [7:0] time_total;
+	wire [7:0] time_diff;
 
 	// Instantiate the Unit Under Test (UUT)
 	time_calculate uut (
 		.time_out(time_out), 
 		.time_in(time_in), 
-		.time_total(time_total)
+		.time_diff(time_diff)
 	);
 
 	initial begin
