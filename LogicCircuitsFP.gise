@@ -117,14 +117,9 @@
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutOfDateForced"/>
-      <status xil_pn:value="OutputRemoved"/>
       <outfile xil_pn:name="isim.cmd"/>
-<<<<<<< HEAD
-=======
       <outfile xil_pn:name="test_calculate_new_capacity_isim_beh.wdb"/>
->>>>>>> module4
     </transform>
   </transforms>
 
