@@ -70,10 +70,12 @@
     <transform xil_pn:end_ts="1641465159" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4813664313174022482" xil_pn:start_ts="1641465159">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1641465159" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7212075454540491504" xil_pn:start_ts="1641465159">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1641455451" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="2810631012269516776" xil_pn:start_ts="1641455451">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -83,6 +85,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
@@ -109,6 +112,7 @@
       <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputChanged"/>
     </transform>
@@ -117,9 +121,10 @@
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutOfDateForced"/>
+      <status xil_pn:value="OutputRemoved"/>
       <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="test_calculate_new_capacity_isim_beh.wdb"/>
     </transform>
   </transforms>
 

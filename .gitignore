@@ -1,3 +1,18 @@
 
 *.xmsgs
 *.xmsgs
+*.xmsgs
+*.xmsgs
+*.log
+*.cmd
+*.html
+*.xise
+*.gise
+*.prj
+*.wdb
+*.sdb
+*.obj
+*.c
+*.didat
+*.exe
+*.dbg
