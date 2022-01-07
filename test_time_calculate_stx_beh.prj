@@ -1,4 +1,0 @@
-verilog isim_temp "module_4/FullAdder.v"
-verilog isim_temp "module_4/time_calculate.v"
-verilog isim_temp "TestBenchs/test_time_calculate.v"
-verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

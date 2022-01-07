@@ -1,4 +1,0 @@
-verilog isim_temp "module_1/park_space_number.v"
-verilog isim_temp "module_1/entry_checker.v"
-verilog isim_temp "module_1/entry_park.v"
-verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

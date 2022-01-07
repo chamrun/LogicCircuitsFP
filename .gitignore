@@ -1,5 +1,7 @@
 
-*
 !.v
 isim/isim_usage_statistics.html
 *.sdb
+*.projectmgr
+iseconfig/LogicCircuitsFP.projectmgr
+LogicCircuitsFP.gise

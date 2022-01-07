@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Things/Programming/Verilog/LogicCircuitsFP/test_parking_capacity_counter_isim_beh.exe" -prj "C:/Things/Programming/Verilog/LogicCircuitsFP/test_parking_capacity_counter_beh.prj" "work.test_parking_capacity_counter" "work.glbl" 
