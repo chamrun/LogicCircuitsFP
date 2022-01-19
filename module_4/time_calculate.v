@@ -21,8 +21,7 @@
 module time_calculate(
     time_out,
     time_in,
-    time_diff);
-    // متاسفانه اجازه نمی‌داد اسم متغیر رو تایم بذارم و بهم ارور می‌داد و مجبور شدم عوضش بکنم
+    time_total);
 
 
 input [7:0] time_out;
