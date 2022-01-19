@@ -44,6 +44,10 @@ calculate_new_capacity calculate_new_capacity0(park_location, parking_capacity, 
 
 parking_capacity_counter parking_capacity_counter0(new_capacity, parked, empty);
 
+time_calculate time_calculate0(time_out, time_in, time_total);
 
+wire [7:0] parking_capacity_new;
+wire [7:0] cap;
+update_capacity update_capacity0(entry, parking_capacity, parking_capacity_new, cap);
 
 endmodule
