@@ -26,9 +26,9 @@ input [2:0] pattern,
 input [7:0] time_out,
 input [7:0] time_in,
 output [7:0] new_capacity,
-output [7:0] time_total;
-output [3:0] parked;
-output [3:0] empty;
+output [7:0] time_total,
+output [3:0] parked,
+output [3:0] empty
 );
 
 
@@ -43,7 +43,7 @@ entry_park entry_park0(entry, parking_capacity, park_number);
 wire [2:0] token;
 token_production token_production0(park_number, pattern, token);
 
-wire [7:0] park_location
+wire [7:0] park_location;
 exit_park exit_park0(exit, token, pattern, park_location);
 
 calculate_new_capacity calculate_new_capacity0(park_location, parking_capacity_new, new_capacity);

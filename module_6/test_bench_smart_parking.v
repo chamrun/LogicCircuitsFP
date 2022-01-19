@@ -24,8 +24,8 @@ reg entry;
 reg [7:0] parking_capacity;
 reg exit;
 reg [2:0] pattern;
-reg [7:0] time_out,
-reg [7:0] time_in,
+reg [7:0] time_out;
+reg [7:0] time_in;
 wire [7:0] new_capacity;
 wire [7:0] time_total;
 wire [3:0] parked;

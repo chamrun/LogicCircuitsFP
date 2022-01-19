@@ -21,8 +21,9 @@
 module update_capacity(input entry, 
 input [7:0] parking_capacity,
 output reg [7:0] parking_capacity_new,
-output reg [7:0] cap
-    );
+output reg [7:0] cap);
+
+
 wire ch;
 wire check;
 	 
